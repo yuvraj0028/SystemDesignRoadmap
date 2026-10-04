@@ -55,7 +55,7 @@ class MenuDisplay {
 }
 
 
-public record InterfaceSeggregation() {
+public record InterfaceSegregation() {
     public static void main(String[] args) {
         VegetarianMenu vegMenu = new VegetarianMenu();
         NonVegetarianMenu nonVegMenu = new NonVegetarianMenu();

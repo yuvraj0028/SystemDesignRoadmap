@@ -16,10 +16,6 @@ class PayPalPaymentProcessor extends PaymentProcessor {
     }
 }
 
-public static void processPayment(PaymentProcessor paymentProcessor, double amount) {
-    paymentProcessor.processPayment(amount);
-}
- 
 public class OpenClosed {
     public static void main(String[] args) {
         PaymentProcessor creditCardProcessor = new CreditCardPaymentProcessor();
