@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-from ..buttons.button import Button
-from ..checkboxes.checkbox import Checkbox
+from buttons.button import Button
+from checkboxes.checkbox import Checkbox
 
 
 class GUIFactory(ABC):

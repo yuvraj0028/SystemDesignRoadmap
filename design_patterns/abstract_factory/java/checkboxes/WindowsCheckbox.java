@@ -1,4 +1,4 @@
-package design_patterns.abstract_factory.java.checkboxes;
+package SystemDesignRoadmap.design_patterns.abstract_factory.java.checkboxes;
 
 public class WindowsCheckbox implements Checkbox{
     @Override

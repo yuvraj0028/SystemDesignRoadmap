@@ -1,8 +1,8 @@
-package design_patterns.abstract_factory.java;
+package SystemDesignRoadmap.design_patterns.abstract_factory.java;
 
-import design_patterns.abstract_factory.java.factories.GUIFactory;
-import design_patterns.abstract_factory.java.factories.MacOSFactory;
-import design_patterns.abstract_factory.java.factories.WindowsFactory;
+import SystemDesignRoadmap.design_patterns.abstract_factory.java.factories.GUIFactory;
+import SystemDesignRoadmap.design_patterns.abstract_factory.java.factories.MacOSFactory;
+import SystemDesignRoadmap.design_patterns.abstract_factory.java.factories.WindowsFactory;
 
 public class Main {
     public static void main(String[] args) {

@@ -19,5 +19,5 @@ public class TripComputer {
         } else {
             System.out.println("Car isn't started");
         }
-    }    
+    }
 }

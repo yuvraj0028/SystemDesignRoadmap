@@ -4,6 +4,23 @@
 
 ---
 
+## Repository Structure
+
+Code examples are organized by topic and then by language:
+
+```text
+design_patterns/<pattern>/<language>/
+lld/<system>/
+solid/<principle>/
+```
+
+- `design_patterns/` – every pattern provides `java/`, `python/`, and `cpp/` implementations.
+- `lld/` – low-level design case studies grouped by system, with diagrams and docs alongside the code.
+- `solid/` – one directory per principle, containing matching `.java`, `.py`, and `.cpp` examples.
+- Directories use `snake_case`; Java files use `PascalCase`; Python and C++ files use `snake_case`.
+
+---
+
 ## Table of Contents
 1. [Prerequisites – Core Computer Science Fundamentals](#1-prerequisites--core-computer-science-fundamentals)
 2. [Networking Fundamentals](#2-networking-fundamentals)

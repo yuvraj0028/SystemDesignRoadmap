@@ -1,8 +1,8 @@
-from ..buttons.button import Button
-from ..buttons.macos_button import MacOSButton
-from ..checkboxes.checkbox import Checkbox
-from ..checkboxes.macos_checkbox import MacOSCheckbox
-from .gui_factory import GUIFactory
+from buttons.button import Button
+from buttons.macos_button import MacOSButton
+from checkboxes.checkbox import Checkbox
+from checkboxes.macos_checkbox import MacOSCheckbox
+from factories.gui_factory import GUIFactory
 
 
 class MacOSFactory(GUIFactory):

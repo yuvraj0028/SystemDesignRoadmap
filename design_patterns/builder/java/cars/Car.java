@@ -14,6 +14,7 @@ public class Car {
     private final GPSNavigator gpsNavigator;
     private double fuel = 0;
 
+    @SuppressWarnings("this-escape")
     public Car(
         CarType carType,
         int seats,
@@ -27,10 +28,9 @@ public class Car {
         this.engine = engine;
         this.transmission = transmission;
         this.tripComputer = tripComputer;
-        if(this.tripComputer!=null) {
+        if (this.tripComputer != null) {
             this.tripComputer.setCar(this);
         }
-
         this.gpsNavigator = gpsNavigator;
     }
 
@@ -65,7 +65,4 @@ public class Car {
     public GPSNavigator getGpsNavigator() {
         return gpsNavigator;
     }
-
-
-
 }

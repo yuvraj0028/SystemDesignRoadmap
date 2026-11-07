@@ -7,7 +7,7 @@ import SystemDesignRoadmap.design_patterns.builder.java.components.GPSNavigator;
 import SystemDesignRoadmap.design_patterns.builder.java.components.Transmission;
 import SystemDesignRoadmap.design_patterns.builder.java.components.TripComputer;
 
-public class CarManualBuilder implements Builder{
+public class CarManualBuilder implements Builder {
     private CarType type;
     private int seats;
     private Engine engine;
@@ -24,7 +24,6 @@ public class CarManualBuilder implements Builder{
     public void setSeats(int seats) {
         this.seats = seats;
     }
-
 
     @Override
     public void setEngine(Engine engine) {

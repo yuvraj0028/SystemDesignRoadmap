@@ -1,6 +1,6 @@
-from .buttons.button import Button
-from .checkboxes.checkbox import Checkbox
-from .factories.gui_factory import GUIFactory
+from buttons.button import Button
+from checkboxes.checkbox import Checkbox
+from factories.gui_factory import GUIFactory
 
 
 class App:

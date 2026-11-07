@@ -48,5 +48,4 @@ public class CarBuilder implements Builder {
     public Car getResult() {
         return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
     }
-    
 }

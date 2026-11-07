@@ -13,7 +13,7 @@ public class Engine {
     public void on() {
         started = true;
     }
-    
+
     public void off() {
         started = false;
     }
@@ -30,12 +30,11 @@ public class Engine {
         return mileage;
     }
 
-    public void go(double milage) {
-        if(started) {
-            this.mileage += milage;
+    public void go(double mileage) {
+        if (started) {
+            this.mileage += mileage;
         } else {
             System.out.println("Cannot go(), you must start engine first!");
         }
-    }    
-    
+    }
 }

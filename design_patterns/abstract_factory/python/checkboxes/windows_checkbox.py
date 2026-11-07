@@ -1,4 +1,4 @@
-from .checkbox import Checkbox
+from checkboxes.checkbox import Checkbox
 
 
 class WindowsCheckbox(Checkbox):

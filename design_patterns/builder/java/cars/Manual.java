@@ -13,8 +13,14 @@ public class Manual {
     private final TripComputer tripComputer;
     private final GPSNavigator gpsNavigator;
 
-    public Manual(CarType carType, int seats, Engine engine, Transmission transmission,
-                  TripComputer tripComputer, GPSNavigator gpsNavigator) {
+    public Manual(
+        CarType carType,
+        int seats,
+        Engine engine,
+        Transmission transmission,
+        TripComputer tripComputer,
+        GPSNavigator gpsNavigator
+    ) {
         this.carType = carType;
         this.seats = seats;
         this.engine = engine;

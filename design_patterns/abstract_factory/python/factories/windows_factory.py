@@ -1,8 +1,8 @@
-from ..buttons.button import Button
-from ..buttons.windows_button import WindowsButton
-from ..checkboxes.checkbox import Checkbox
-from ..checkboxes.windows_checkbox import WindowsCheckbox
-from .gui_factory import GUIFactory
+from buttons.button import Button
+from buttons.windows_button import WindowsButton
+from checkboxes.checkbox import Checkbox
+from checkboxes.windows_checkbox import WindowsCheckbox
+from factories.gui_factory import GUIFactory
 
 
 class WindowsFactory(GUIFactory):

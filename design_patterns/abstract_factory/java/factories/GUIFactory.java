@@ -1,7 +1,7 @@
-package design_patterns.abstract_factory.java.factories;
+package SystemDesignRoadmap.design_patterns.abstract_factory.java.factories;
 
-import design_patterns.abstract_factory.java.buttons.Button;
-import design_patterns.abstract_factory.java.checkboxes.Checkbox;
+import SystemDesignRoadmap.design_patterns.abstract_factory.java.buttons.Button;
+import SystemDesignRoadmap.design_patterns.abstract_factory.java.checkboxes.Checkbox;
 
 public interface GUIFactory {
     Button createButton();

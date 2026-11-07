@@ -1,9 +1,9 @@
 import platform
 
-from .app import App
-from .factories.gui_factory import GUIFactory
-from .factories.macos_factory import MacOSFactory
-from .factories.windows_factory import WindowsFactory
+from app import App
+from factories.gui_factory import GUIFactory
+from factories.macos_factory import MacOSFactory
+from factories.windows_factory import WindowsFactory
 
 
 def main() -> None:

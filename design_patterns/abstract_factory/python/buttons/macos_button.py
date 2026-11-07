@@ -1,4 +1,4 @@
-from .button import Button
+from buttons.button import Button
 
 
 class MacOSButton(Button):
